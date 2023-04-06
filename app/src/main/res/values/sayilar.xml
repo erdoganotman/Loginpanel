@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="dizi">
+        <item>10</item>
+        <item>85</item>
+        <item>67</item>
+        <item>25</item>
+        <item>8</item>
+        <item>15</item>
+        <item>32</item>
+        <item>45</item>
+        <item>48</item>
+
+    </integer-array>
+
+
+</resources>

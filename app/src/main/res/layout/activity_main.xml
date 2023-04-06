@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingConstraints"
+    android:gravity="center" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Paneli"
+        android:textSize="35sp"
+        android:gravity="center"
+        style="@style/yenistil"
+        android:layout_marginBottom="20dp"
+        tools:ignore="MissingConstraints"></TextView>
+
+    <TableRow
+        android:id="@+id/tbl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/yenistil">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kullanıcı Adı"
+            android:textSize="30sp"
+            style="@style/yenistil"></TextView>
+
+        <EditText
+            android:id="@+id/kul"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:ems="11"
+            android:hint="Kullanıcı Adı"
+            android:layout_marginLeft="5dp"
+            ></EditText>
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tbl2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parola"
+            android:textSize="30sp"
+            android:layout_marginLeft="5dp"
+            style="@style/yenistil"></TextView>
+        <EditText
+            android:id="@+id/parola"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:ems="11"
+            android:hint="Parola"></EditText>
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tbl3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/giris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giriş"
+            android:layout_column="1"
+            ></Button>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tbl4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/vazgec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vazgeç"
+            android:layout_column="1"
+            ></Button>
+
+
+
+    </TableRow>
+</TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
